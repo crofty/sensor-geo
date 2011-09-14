@@ -1,0 +1,18 @@
+{
+  "spade": {
+    "version": "1.0.1",
+    "path": "/Users/jamescroft/.bpm/gems/spade-1.0.1"
+  },
+  "spade-qunit": {
+    "version": "1.0.1",
+    "path": "/Users/jamescroft/.bpm/gems/spade-qunit-1.0.1"
+  },
+  "uglify-js": {
+    "version": "1.0.4.3",
+    "path": "/Users/jamescroft/.bpm/gems/uglify-js-1.0.4.3"
+  },
+  "qunit": {
+    "version": "1.0.0.1",
+    "path": "/Users/jamescroft/.bpm/gems/qunit-1.0.0.1"
+  }
+}

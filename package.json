@@ -1,0 +1,32 @@
+{
+  "name": "sensor-geo",
+  "bpm": "1.0.0",
+  "version": "0.0.1",
+  "dependencies": {
+    "spade": "~> 1.0"
+  },
+  "dependencies:development": {
+    "spade-qunit": "~> 1.0.0"
+  },
+  "bpm:build": {
+    "bpm_libs.js": {
+      "files": [
+        "lib"
+      ],
+      "minifier": "uglify-js"
+    },
+    "bpm_styles.css": {
+      "files": [
+        "css"
+      ]
+    },
+    "sensor-geo/bpm_tests.js": {
+      "directories": [
+        "tests"
+      ],
+      "modes": [
+        "debug"
+      ]
+    }
+  }
+}
